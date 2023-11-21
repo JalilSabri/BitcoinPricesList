@@ -1,0 +1,433 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.IoC\\GlobalTeknoloji.IoC.csproj": {}
+  },
+  "projects": {
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj",
+        "projectName": "GlobalTeknoloji.Application",
+        "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj",
+        "packagesPath": "C:\\Users\\JalilSabri\\.nuget\\packages\\",
+        "outputPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JalilSabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj"
+              },
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj"
+              },
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Infrastructure\\GlobalTeknoloji.Infrastructure.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Infrastructure\\GlobalTeknoloji.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj",
+        "projectName": "GlobalTeknoloji.Data",
+        "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj",
+        "packagesPath": "C:\\Users\\JalilSabri\\.nuget\\packages\\",
+        "outputPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JalilSabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj",
+        "projectName": "GlobalTeknoloji.Domain",
+        "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj",
+        "packagesPath": "C:\\Users\\JalilSabri\\.nuget\\packages\\",
+        "outputPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JalilSabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Infrastructure\\GlobalTeknoloji.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Infrastructure\\GlobalTeknoloji.Infrastructure.csproj",
+        "projectName": "GlobalTeknoloji.Infrastructure",
+        "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Infrastructure\\GlobalTeknoloji.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\JalilSabri\\.nuget\\packages\\",
+        "outputPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JalilSabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.IoC\\GlobalTeknoloji.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.IoC\\GlobalTeknoloji.IoC.csproj",
+        "projectName": "GlobalTeknoloji.IoC",
+        "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.IoC\\GlobalTeknoloji.IoC.csproj",
+        "packagesPath": "C:\\Users\\JalilSabri\\.nuget\\packages\\",
+        "outputPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JalilSabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj"
+              },
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Data\\GlobalTeknoloji.Data.csproj"
+              },
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Job\\GlobalTeknoloji.Job.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Job\\GlobalTeknoloji.Job.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Job\\GlobalTeknoloji.Job.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Job\\GlobalTeknoloji.Job.csproj",
+        "projectName": "GlobalTeknoloji.Job",
+        "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Job\\GlobalTeknoloji.Job.csproj",
+        "packagesPath": "C:\\Users\\JalilSabri\\.nuget\\packages\\",
+        "outputPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Job\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JalilSabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Application\\GlobalTeknoloji.Application.csproj"
+              },
+              "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj": {
+                "projectPath": "F:\\Companies\\For Assessment\\Global Teknoloji\\Source\\Server\\GlobalTeknoloji.Domain\\GlobalTeknoloji.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[109.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

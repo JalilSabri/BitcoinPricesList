@@ -1,0 +1,14 @@
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\bin\Debug\net7.0\GlobalTeknoloji.Domain.exe
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\bin\Debug\net7.0\GlobalTeknoloji.Domain.deps.json
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\bin\Debug\net7.0\GlobalTeknoloji.Domain.runtimeconfig.json
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\bin\Debug\net7.0\GlobalTeknoloji.Domain.dll
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\bin\Debug\net7.0\GlobalTeknoloji.Domain.pdb
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.AssemblyInfoInputs.cache
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.AssemblyInfo.cs
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.csproj.CoreCompileInputs.cache
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.dll
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\refint\GlobalTeknoloji.Domain.dll
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.pdb
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\GlobalTeknoloji.Domain.genruntimeconfig.cache
+F:\Companies\For Assessment\Global Teknoloji\Source\Server\GlobalTeknoloji.Domain\obj\Debug\net7.0\ref\GlobalTeknoloji.Domain.dll
